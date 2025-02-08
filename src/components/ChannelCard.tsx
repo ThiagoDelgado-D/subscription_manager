@@ -1,8 +1,9 @@
+
+import { Channel } from "@/lib/types";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
-import { Channel } from "../lib/types";
-import { Checkbox } from "./ui/checkbox";
-import { Card, CardContent, CardHeader } from "./ui/card";
 
 interface ChannelCardProps {
   channel: Channel;
