@@ -44,5 +44,4 @@ export const mockChannels: Channel[] = [
     lastVideoDate: '2024-03-10',
     postFrequency: 'medium',
   },
-  // Agrega más canales mock aquí según necesites
 ];
